@@ -9,8 +9,7 @@ var mouseX = 0, mouseY = 0;
 var xCenter, yCenter, zCenter, zOffset;
 
 $(document).ready(function () {
-    $('#btn-upload')[0].disabled = false;
-    $('#btn-default')[0].disabled = false;
+    useDefaultData();
 });
 
 
